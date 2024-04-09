@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="/css/styleReset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidentes</title>
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <h1><b>PRESIDENTES DE COLOMBIA</b></h1>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="card-container" id="cards">
+
+            <div class="card-overlay" id="overlay">Haz click para más información</div>
+        </div>
+      
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1 id="modal-president-name"></h1>
+                <img id="modal-president-image" src="" alt="President Image">
+                <p id="modal-president-description"></p>
+                <p> <span id="modal-city"></span></p>
+                <p><b>Periodo:</b> <span id="modal-president-period"></span></p>
+                <p><b>Partido Político:</b> <span id="modal-president-party"></span></p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h1><b>PRUEBA REALIZADA POR:</b></h1>
+        <P>Jorge Eliecer Hurtado Bastidas</P>
+    </footer>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
